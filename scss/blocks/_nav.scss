@@ -1,0 +1,12 @@
+.navbar {
+    background-image: linear-gradient(to right, ($colorNavFootA), ($colorNavFootB));
+    font-size: 1.5rem;
+    height: 60px;
+    justify-content: center;
+    .navbar-collapse {
+        background-color: $colorNavFootB;
+    }
+    .logo {
+        height: 45px;
+    }
+}

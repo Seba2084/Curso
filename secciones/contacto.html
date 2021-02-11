@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <meta name="description" content="Formulario de contacto de Bonsai Matsuri. Dejanos tu consulta">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Courgette&family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <meta name="keywords" content="bonsai, matsuri, eventos, demos, demostraciones, exposiciones, kimura, bjorn, bjorholm, mauro, stemberger, macetas, arboles, plantas, tokonomas, workshop">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="../css/estructura-estilos.css"/>
+  </head>
+  <body class="container-fluid">
+    <header>
+      <div class="row">
+        <div class="col-lg-12 col-xs-12"> 
+          <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">          
+            <img class="logo" src="../image/logo.png" alt="Logo">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="demos&work.html">Demos & Workshop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mercado.html">Mercado</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </nav>
+        </div> 
+      </div>
+    </header>
+    <main>
+      <h3>Contacto e inscripcion</h3>
+      <form name="formulario_contacto" action="gracias.html" method="POST">
+        <label for="my_name_input">Nombre</label>
+        <input type="text" name="name_input" id="my_name_input" required value="" placeholder="Juan Pablo Gonzalez">
+        <br><br>
+        <label for="my_email_input">Email</label>
+        <input type="email" name="email_input" id="my_email_input" required value="" placeholder="mi_mail@algo.com">
+        <br><br>
+        <label for="my_textaera_input">Mensaje</label>
+        <textarea name="textarea" id="my_textaera_input" required cols="30" rows="6" placeholder="Escriba su consulta aquí"></textarea>    
+        <br><br>  
+        <form name="formulario_inscripcion" action="gracias.html" method="POST">
+        <label for="my_select">Deseo inscribirme a la demo de</label>
+        <select name="demos" id="my_select">
+          <option value="0" selected="selected">Seleccione</option>
+          <option value="1">Bjiorn Bjorholm</option>
+          <option value="2">Mauro Stemberger</option>
+          <option value="3">Maestro Kimura</option>   
+        </select>
+        </form>
+        <br><br>
+        <input type="checkbox" name="info" id="send_info">
+        <label for="send_info">Quiero recibir informacion del demostrador</label>
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar formulario">
+      </form>
+    </main>
+    <footer>
+      <p>&copy; Copyrigth 2020 - Coderhouse &reg Sebastian Pereyra</p>
+    </footer> 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script> 
+  </body>
+</html>
