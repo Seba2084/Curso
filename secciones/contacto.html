@@ -39,42 +39,43 @@
         </div> 
       </div>
     </header>
-    <main class="cuerpo">
-      <div class="row">
-        <div class="col-lg-12 col-xs-12">
-          <h3>Contacto e inscripcion</h3>
+    <main class="cuerpo">   
+      <section class="contactSec">   
+        <div class="row">
+          <div class="col-lg-12 col-xs-12">          
+            <h3>Contacto e inscripcion</h3>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12 col-xs-12">
-          <form name="formulario_contacto" action="gracias.html" method="POST">
-            <label for="my_name_input">Nombre</label>
-            <input type="text" name="name_input" id="my_name_input" required value="" placeholder="Juan Pablo Gonzalez">
-            <br><br>
-            <label for="my_email_input">Email</label>
-            <input type="email" name="email_input" id="my_email_input" required value="" placeholder="mi_mail@algo.com">
-            <br><br>
-            <label for="my_textaera_input">Mensaje</label>
-            <textarea name="textarea" id="my_textaera_input" required cols="30" rows="6" placeholder="Escriba su consulta aquí"></textarea>    
-            <br><br>  
-            <form name="formulario_inscripcion" action="gracias.html" method="POST">
-            <label for="my_select">Deseo inscribirme a la demo de</label>
-            <select name="demos" id="my_select">
-              <option value="0" selected="selected">Seleccione</option>
-              <option value="1">Bjiorn Bjorholm</option>
-              <option value="2">Mauro Stemberger</option>
-              <option value="3">Maestro Kimura</option>   
-            </select>
+          <div class="col-lg-12 col-xs-12">
+            <form name="formulario_contacto" action="gracias.html" method="POST">
+              <label for="my_name_input">Nombre</label>
+              <input type="text" name="name_input" id="my_name_input" required value="" placeholder="Juan Pablo Gonzalez">
+              <br><br>
+              <label for="my_email_input">Email</label>
+              <input type="email" name="email_input" id="my_email_input" required value="" placeholder="mi_mail@algo.com">
+              <br><br>
+              <label for="my_textaera_input">Mensaje</label>
+              <textarea name="textarea" id="my_textaera_input" required cols="30" rows="6" placeholder="Escriba su consulta aquí"></textarea>    
+              <br><br>  
+              <form name="formulario_inscripcion" action="gracias.html" method="POST">
+              <label for="my_select">Deseo inscribirme a la demo de</label>
+              <select name="demos" id="my_select">
+                <option value="0" selected="selected">Seleccione</option>
+                <option value="1">Bjiorn Bjorholm</option>
+                <option value="2">Mauro Stemberger</option>
+                <option value="3">Maestro Kimura</option>   
+              </select>
+              </form>
+              <br><br>
+              <input type="checkbox" name="info" id="send_info">
+              <label for="send_info">Quiero recibir informacion del demostrador</label>
+              <br><br>
+              <input type="submit" value="Enviar">
+              <input type="reset" value="Borrar formulario">
             </form>
-            <br><br>
-            <input type="checkbox" name="info" id="send_info">
-            <label for="send_info">Quiero recibir informacion del demostrador</label>
-            <br><br>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar formulario">
-          </form>
+          </div>
         </div>
-      </div>
+      </section>
     </main>
     <footer>
       <p>&copy; Copyrigth 2020 - Coderhouse &reg Sebastian Pereyra</p>
