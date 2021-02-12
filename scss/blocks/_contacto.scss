@@ -1,5 +1,24 @@
 .contactSec {
-    background-image: url(../../image/bcoynegrosepia.jpg);
+    background-image: url(../../image/pinodes.jpg);
     margin-top: 60px;
-    height: 700px;
+    height: 900px;
+    h3 {
+        border-radius: 2.5%;
+        background-color: rgb(194, 194, 194);
+        margin-right: 430px;
+        margin-left: 430px;
+    }
+}  
+
+.marco {
+    background-color: rgb(194, 194, 194);
+    border-radius: 2.5%;
+    height: 600px;
+    margin-left: 450px; 
+    padding-top: 15px;
+    form{
+        .form-check {
+        text-align: left;
+        }
+    }
 }
